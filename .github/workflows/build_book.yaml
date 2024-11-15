@@ -39,7 +39,6 @@ jobs:
         with:
           cache-version: 2
           packages: |
-            tidyverse/ggplot2@v3.3.0
             dplyr
 
       - name: Render book to all format
