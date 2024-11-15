@@ -26,11 +26,6 @@ book:
     - preface-3e.qmd
     - preface-2e.qmd
 
-    - part: start.qmd
-      chapters:
-        - introduction.qmd
-        - getting-started.qmd
-
     - part: extending.qmd
       chapters:
         - programming.qmd
