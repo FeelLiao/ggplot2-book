@@ -36,6 +36,11 @@ jobs:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 2
+          packages: |
+            ggplot2==3.3.0
+            dplyr
 
       - name: Render book to all format
         # Add any command line argument needed
