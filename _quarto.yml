@@ -28,7 +28,6 @@ book:
 
     - part: extending.qmd
       chapters:
-        - programming.qmd
         - internals.qmd
         - extensions.qmd
         - ext-springs.qmd
