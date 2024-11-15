@@ -8,7 +8,7 @@
 # the rendering process in addition to the final gtable
 #
 # Lines that marked with # ****** are those that have been modified or inserted
-
+library(ggplot2,lib.loc = "rp_ggplot2")
 gggtable <- function(data) {
 
   `%||%` <- ggplot2:::`%||%` # ******
