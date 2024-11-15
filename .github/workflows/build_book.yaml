@@ -39,7 +39,7 @@ jobs:
         with:
           cache-version: 2
           packages: |
-            ggplot2==3.3.0
+            tidyverse/ggplot2@v3.3.0
             dplyr
 
       - name: Render book to all format
